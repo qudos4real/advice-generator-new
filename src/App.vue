@@ -2,9 +2,12 @@
 <div class="main-container">
   <p class="id">Advice #21</p>
   <p class="quote">
+    Ad
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam obcaecati dolores delectus mollitia tenetur quam nobis ab iste amet, commodi consequuntur minus beatae facere architecto nam voluptatibus dolor similique tempore.
   </p>
   <img src="./assets/images/pattern-divider-mobile.svg">
+  <!-- <br>
+  <img src="./assets/images/pattern-divider-desktop.svg"> -->
 <div class="move">
   <div class="dice-container">
     <img src="./assets/images/icon-dice.svg">
@@ -32,9 +35,9 @@ export default {
   font-size: 28px;
 }
 .main-container {
-  height: 100%;
-  width: 80%;
-  min-width: 400px;
+  /* height: 100%;
+  width: 80%; */
+  /* min-width: 400px; */
   border: 1px solid #000;
   border-radius: .7rem;
   margin: 0 auto;
@@ -62,5 +65,16 @@ export default {
   position: relative;
   top: 40px;
 }
+@media screen and (max-width: 375px) {
+  #app {
+    font-size: 16px;
+  }
+  .main-container {
+    width: 90%;
+    /* margin: 10px; */
+    border-color: red;
+  }
 
+
+}
 </style>
